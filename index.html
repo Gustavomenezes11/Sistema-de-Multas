@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPTC</title>
+    <link rel="shortcut icon" href="logo eptc.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <img class="logodaeptc" src="logo eptc.png" alt="LogodaEPTC">
+        <p class="eptctxt">A Empresa Pública de Transporte e Circulação é uma empresa que regula e fiscaliza as atividades relacionadas ao trânsito e transportes no município de Porto Alegre. Foi criada pela Lei Municipal 8.133, de 13 de janeiro de 1998, atendendo a uma tendência internacional de municipalização da mobilidade urbana.</p>
+    </header>
+    <main>
+        <h1 class="titulo">Sistema de Multas</h1>
+        <p class="consulta">O melhor sistema para saber se você levou multa ou não.</p>
+        <p class="txtcampoconsulta">A velocidade do veículo era de: </p>
+        <a class="linkeptc" href="https://pt.wikipedia.org/wiki/Empresa_P%C3%BAblica_de_Transporte_e_Circula%C3%A7%C3%A3o_de_Porto_Alegre" target="_blank">Clique para conhecer mais sobre a EPTC</a>
+        <p class="km">Km/h</p>
+        <input type="number" name="numero" id="campoconsulta">
+        <input type="button" name="consultar" value="Consultar" id="consultar" onclick="clicar()">
+    </main>
+    <div id="txtresultado"></div>
+    <script src="condição.js"></script>
+</body>
+</html>
